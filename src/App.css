@@ -1,0 +1,147 @@
+body{
+  margin:0;
+  background-color: #eee;
+}
+*{
+  box-sizing: border-box;
+  
+}
+header{
+  background-color:#f5ba13;
+  box-shadow: 0px 0px 6px #709fb0;
+}
+
+header h1{
+  margin-top:0;
+  color:#fff;
+  padding:14px 15px 15px 34px;
+  font-size:35px;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    margin-bottom:0;
+    letter-spacing: .5px;
+}
+  
+
+
+footer{
+  position:absolute;
+  bottom:0;
+
+  text-align: center;
+  width:100%;
+margin-bottom: 20px;
+opacity:.3;}
+
+.note{
+  position:relative;
+  width:50%;
+  height:auto;
+  background-color:#fff;
+  border:1px solid #fff;
+  border-radius: 8px;
+  margin:20px auto;
+    box-shadow: 0px 2px 5px #ddd;
+    text-align: left;
+    transition:height 8s;
+}
+ .note h1,p{
+  margin-top:7px;
+  margin-bottom: 4px;
+  font-family: sans-serif;
+font-size:20px;
+font-weight:lighter;
+margin-left:10px;}
+
+.note p{
+  margin-top:0px;
+  margin-bottom:17px;
+  font-weight:normal;
+  opacity:0.7;
+}
+
+.note:hover{
+  height:120px;
+  transition-timing-function:linear;
+  transition-delay:1s;
+
+}
+
+footer p{
+  font-size:17px;
+}
+
+
+input,textarea{
+  border:0;
+  font-size:20px;
+  width:90%;
+  margin-bottom: 10px;
+  margin-left:20px;
+  margin-top:10px;
+}
+
+
+input,textarea:focus{
+  outline:none;
+}
+
+button{
+  position:absolute;
+   left:80%;
+  bottom: 0;
+  border-radius:50%;
+  padding:6px 11px 6px 11px;
+  font-size:20px;
+  background-color:#f5ba13; 
+  border:1px solid #f5ba13;
+  color:white;
+  box-shadow: 0px 0px 2px #709fb0;
+}
+
+
+.saved{
+  
+  width:300px;
+  height:auto;
+  margin:40px 30px;
+  background-color: white;
+   border:1px solid #fff;
+  border-radius: 8px;
+  margin:20px auto;
+    box-shadow: 0px 2px 5px #ddd;
+    text-align: left;
+}
+.saved h1,p{
+  margin-top:7px;
+  margin-bottom: 4px;
+  font-family: sans-serif;
+font-size:20px;
+font-weight:lighter;
+margin-left:10px;}
+
+.saved p{
+  margin-top:0px;
+  margin-bottom:17px;
+  font-weight:normal;
+  opacity:0.7;
+}
+
+.saved button{
+position:relative;
+color:#f5ba13;
+padding:0;
+background-color: white;
+border:0 solid #fff;
+border-radius: 0;
+box-shadow: 0px 0px 0px #fff;
+}
+.saved button:focus{
+  outline:none;
+}
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
